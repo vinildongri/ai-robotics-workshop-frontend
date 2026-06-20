@@ -1,8 +1,8 @@
 'use client';
 
 import React from 'react';
-// Updated imports to include icons for the new info boxes
-import { Rocket, ArrowRight, Clock, GraduationCap } from 'lucide-react';
+// FIX: Removed Clock and GraduationCap because they were unused
+import { Rocket, ArrowRight } from 'lucide-react';
 
 export default function HeroSection() {
 
